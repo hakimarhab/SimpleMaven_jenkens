@@ -1,0 +1,14 @@
+package testing_dataProvider;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProvider_Introduction {
+
+
+@DataProvider
+public Object[][] getdData(){
+	Object[][] Data=new Object[3][4];
+	
+	Data[0][0]="username1";
+}
+}

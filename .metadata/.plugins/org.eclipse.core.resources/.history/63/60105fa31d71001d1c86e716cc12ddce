@@ -1,0 +1,26 @@
+package sesssion_String_26Nov_20222;
+
+public class Encapsulation_Concepts {
+
+	//Declare the instance variables as Private
+	// setters and getters Methods in Encapsulation Java
+	
+	private String name; // private instance global variable
+	private int age;
+	  
+	
+	
+	public int getAge() {
+		  return age;
+	  }
+	public String getName() {
+		return name;
+	}
+	public void setAge(int newAge) {
+		age=newAge;
+	}
+	public void setName(String newName) {
+		name=newName;
+	}
+	
+}

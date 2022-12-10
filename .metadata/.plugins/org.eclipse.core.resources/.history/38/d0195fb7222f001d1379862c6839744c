@@ -1,0 +1,30 @@
+package review;
+
+public class Hakima {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		average(20, 80, 70);
+	}
+	// Method with argument
+	public static void average (int math, int science, int English) {
+			
+		int A=math;
+		int B=science;
+		int C=English;
+        int total=A+B+C;
+        float av=total/3;
+        System.out.println("the average is ="+av);
+        
+        
+	}
+    // Method without argument
+	public void messageForeStudents() {
+		System.out.println("welcome to the classroom");
+	}
+	
+	
+		
+	}
+
+

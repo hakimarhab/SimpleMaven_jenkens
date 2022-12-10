@@ -1,0 +1,14 @@
+package java_session_Nov12_2022;
+
+public class Child {
+	
+	
+	public void superCar() {
+		System.out.println("Child's super car");
+	}
+	
+	public void guitar() {
+		System.out.println("Child's guitar");
+	}
+
+}

@@ -1,0 +1,13 @@
+package java_session_Nov12_2022;
+
+public class Student {
+String name;
+int student_Id;
+int age;
+  Student si=new Student();
+	public static void main(String[] args) {
+		
+
+	}
+
+}
